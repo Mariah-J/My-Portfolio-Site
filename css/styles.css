@@ -8,21 +8,39 @@ h1 {
     text-align: center;
     padding-top: 20px;
     color: whitesmoke;
+    
   }
   
-  p {
-    text-align: center;
+h2 {
+font-family: "Montserrat", sans-serif;
+text-align: center;
+color: rgb(119, 23, 119);
+
+}
+
+p {
+text-align: center;
+font-family: "Montserrat", sans-serif;
+color: #999;
+} 
+
+ul {
+    display: table;
+    margin: 0 auto;
     font-family: "Montserrat", sans-serif;
     color: #999;
-  } 
+    list-style-position: inside;
+    padding-left: 0;
+}
 
-/* based on project from Author: Gabriele Mantovani https://www.sliderrevolution.com/resources/css-border-animation/ */
+
+/* based on project by Gabriele Mantovani https://www.sliderrevolution.com/resources/css-border-animation/ */
 
   .button {
     width: 200px;
     margin: 100px auto;
     position: relative;
-    border: solid 2px plum;
+    border: solid 2px rgb(119, 23, 119);
     height: 55px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
