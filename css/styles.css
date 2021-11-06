@@ -1,6 +1,11 @@
 body {
 background-color: #080808;
+margin: 0;
+}
 
+.topnav {
+  background-color: whitesmoke;
+  overflow: hidden;
 }
 
 h1 {
@@ -22,6 +27,7 @@ padding: 10px;
 border: 2px solid whitesmoke;
 border-radius: 10px;
 margin: auto;
+margin-top: 20px;
 
 }
 
@@ -166,12 +172,12 @@ ul {
     left: 0;
   }
   
-  /*p.credits {
+  p.credits {
     text-align: center;
     font-family: "Source Sans Pro", sans-serif;
     color: purple;
     font-size: 16px;
-  }*/
+  }
   
   @keyframes open {
     0% {
@@ -258,6 +264,13 @@ img {
   }
 /*endcontactform*/
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: gold;
+}
 
   .footer {
     position: fixed;
