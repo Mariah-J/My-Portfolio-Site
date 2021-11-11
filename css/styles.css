@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+
 body {
 background-color: #080808;
 margin: 0;
@@ -62,7 +64,7 @@ margin: 0;
   }
 
 h1 {
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Cinzel Decorative', cursive;
     text-align: center;
     padding-top: 20px;
     color: whitesmoke;
@@ -70,7 +72,7 @@ h1 {
   }
   
 h2 {
-font-family: "Montserrat", sans-serif;
+font-family: 'Cinzel Decorative', cursive; /*"Montserrat", sans-serif;*/
 text-align: center;
 color: rgb(119, 23, 119);
 box-sizing: border-box;

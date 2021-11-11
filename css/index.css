@@ -1,8 +1,8 @@
 /* based on project by Gabriele Mantovani https://www.sliderrevolution.com/resources/css-border-animation/ */
-
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
 
 h1 {
-    font-family: "Montserrat", sans-serif;
+    font-family:'Cinzel Decorative', cursive;
     text-align: center;
     padding-top: 20px;
     color: #000;
@@ -10,7 +10,7 @@ h1 {
   
   p {
     text-align: center;
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Cinzel Decorative', cursive;
     color: #999;
   }
   
@@ -51,7 +51,7 @@ h1 {
     margin: 0 auto;
     text-align: center;
     color: purple;
-    font-family: "Source Sans Pro", sans-serif;
+    font-family: 'Cinzel Decorative', cursive;
     font-size: 22px;
     line-height: 55px;
   }
