@@ -3,10 +3,63 @@ background-color: #080808;
 margin: 0;
 }
 
-.topnav {
+.box {
+  width: 200px;
+  padding: 20px;
+  border: 2px solid whitesmoke;
   background-color: whitesmoke;
-  overflow: hidden;
 }
+
+.navbar {
+    overflow: hidden;
+    background-color:#333;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .navbar a.active {
+    background-color: whitesmoke;
+    color: purple;
+  }
+  
+  .navbar .icon {
+    display: none;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .navbar a:not(:first-child) {display: none;}
+    .navbar a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .navbar.responsive {position: relative;}
+    .navbar.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .navbar.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
 
 h1 {
     font-family: "Montserrat", sans-serif;
@@ -34,177 +87,20 @@ margin-top: 20px;
 p {
 text-align: center;
 font-family: "Montserrat", sans-serif;
-color: #999;
+color: rgb(119, 23, 119);
 } 
 
 ul {
     display: table;
     margin: 0 auto;
     font-family: "Montserrat", sans-serif;
-    color: #999;
+    color: rgb(119, 23, 119);
     list-style-position: inside;
     padding-left: 0;
 }
 
 
-/* based on project by Gabriele Mantovani https://www.sliderrevolution.com/resources/css-border-animation/ */
 
-  .button {
-    width: 200px;
-    margin: 100px auto;
-    position: relative;
-    border: solid 2px rgb(119, 23, 119);
-    height: 55px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-  }
-  .button:hover .hoverBtn:before, .button:hover .hoverBtn:after {
-    opacity: 1;
-    -webkit-animation: open 0.4s;
-    /* Chrome, Safari, Opera */
-    animation: open 0.4s;
-    animation-fill-mode: forwards;
-    animation-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
-    animation-direction: normal;
-  }
-  .button:hover .hoverBtn-bottom:before, .button:hover .hoverBtn-bottom:after {
-    opacity: 1;
-    -webkit-animation: openB 0.4s;
-    /* Chrome, Safari, Opera */
-    animation: openB 0.4s;
-    animation-delay: 0.4s;
-    animation-fill-mode: forwards;
-    animation-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
-    animation-direction: normal;
-  }
-  .button p {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    text-align: center;
-    color: #93999c;
-    font-family: "Source Sans Pro", sans-serif;
-    font-size: 22px;
-    line-height: 55px;
-  }
-  
-  .hoverBtn {
-    width: 100%;
-    height: 55px;
-    position: absolute;
-    top: -1px;
-  }
-  .hoverBtn:before {
-    position: absolute;
-    content: "";
-    height: 0;
-    width: 0;
-    display: block;
-    opacity: 0;
-    border-top: solid 2px #501488;
-    border-left: solid 2px #501488;
-    -webkit-border-top-left-radius: 5px;
-    -moz-border-top-left-radius: 5px;
-    border-top-left-radius: 5px;
-    -webkit-border-bottom-left-radius: 5px;
-    -moz-border-bottom-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-    right: 100px;
-  }
-  .hoverBtn:after {
-    position: absolute;
-    content: "";
-    height: 0;
-    width: 0;
-    display: block;
-    opacity: 0;
-    border-top: solid 2px #501488;
-    border-right: solid 2px #501488;
-    -webkit-border-top-right-radius: 5px;
-    -moz-border-top-right-radius: 5px;
-    border-top-right-radius: 5px;
-    -webkit-border-bottom-right-radius: 5px;
-    -moz-border-bottom-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    left: 100px;
-  }
-  
-  .hoverBtn-bottom {
-    width: 100%;
-    height: 55px;
-    position: absolute;
-  }
-  .hoverBtn-bottom:before {
-    position: absolute;
-    content: "";
-    height: 0;
-    width: 0;
-    display: block;
-    opacity: 0;
-    height: 55px;
-    border-bottom: solid 2px #501488;
-    -webkit-border-top-right-radius: 5px;
-    -moz-border-top-right-radius: 5px;
-    border-top-right-radius: 5px;
-    -webkit-border-bottom-right-radius: 5px;
-    -moz-border-bottom-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    right: 0;
-  }
-  .hoverBtn-bottom:after {
-    position: absolute;
-    content: "";
-    height: 0;
-    width: 0;
-    display: block;
-    opacity: 0;
-    height: 55px;
-    border-bottom: solid 2px #501488;
-    -webkit-border-top-left-radius: 5px;
-    -moz-border-top-left-radius: 5px;
-    border-top-left-radius: 5px;
-    -webkit-border-bottom-left-radius: 5px;
-    -moz-border-bottom-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-    left: 0;
-  }
-  
-  p.credits {
-    text-align: center;
-    font-family: "Source Sans Pro", sans-serif;
-    color: purple;
-    font-size: 16px;
-  }
-  
-  @keyframes open {
-    0% {
-      width: 0;
-      height: 0;
-    }
-    50% {
-      width: 100px;
-      height: 0;
-    }
-    100% {
-      width: 100px;
-      height: 55px;
-    }
-  }
-  @keyframes openB {
-    0% {
-      width: 0px;
-    }
-    100% {
-      width: 100px;
-    }
-  }
-
-img {
-
-}
 
 /*contactformcss*/
 * {
@@ -222,11 +118,12 @@ img {
   }
   
   input[type=submit] {
-    background-color: #501488;
+    background-color:black;
     color: white;
     padding: 12px 20px;
     border: none;
     cursor: pointer;
+    margin-bottom: 10px;
   }
   
   input[type=submit]:hover {
@@ -262,6 +159,27 @@ img {
       margin-top: 0;
     }
   }
+
+  .social-icons {
+    display: flex;
+    margin-top: 0.5rem;
+  }
+  
+  .social-icons a {
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    background: linear-gradient(45deg, purple, #501488);
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 0.5rem;
+    transition: 0.3s;
+  }
+  
+  .social-icons a:hover {
+    transform: scale(1.05);
+  }
 /*endcontactform*/
 
 a {
@@ -277,8 +195,8 @@ a:hover {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: inherit;
-    color: whitesmoke;
+    background-color: whitesmoke;
+    color: black;
     text-align: center;
     font-family: Montserrat, sans-serif;
     padding: 0px;
