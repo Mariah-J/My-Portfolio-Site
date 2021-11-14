@@ -5,16 +5,10 @@ background-color: #080808;
 margin: 0;
 }
 
-.box {
-  width: 200px;
-  padding: 20px;
-  border: 2px solid whitesmoke;
-  background-color: whitesmoke;
-}
 
 .navbar {
     overflow: hidden;
-    background-color:#333;
+    background: linear-gradient(to top left, rgba(86, 13, 69, 1.0), rgba(1, 15, 84, 1.0));;
   }
   
   .navbar a {
@@ -25,6 +19,7 @@ margin: 0;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    font-family: 'Cinzel Decorative', cursive;
   }
   
   .navbar a:hover {
@@ -74,29 +69,59 @@ h1 {
 h2 {
 font-family: 'Cinzel Decorative', cursive; /*"Montserrat", sans-serif;*/
 text-align: center;
-color: rgb(119, 23, 119);
+color: whitesmoke;
 box-sizing: border-box;
 width: 300px;
 height: 50px;
 padding: 10px;  
-border: 2px solid whitesmoke;
-border-radius: 10px;
 margin: auto;
 margin-top: 20px;
 
 }
 
+
+
 p {
 text-align: center;
 font-family: "Montserrat", sans-serif;
-color: rgb(119, 23, 119);
+color: rgb(240, 228, 240);
 } 
+
+#html {
+  width: 45px;
+  height: 45px;
+}
+
+#css {
+  width: 45px;
+  height: 45px;
+}
+
+#js {
+  width: 45px;
+  height: 45px;
+}
+
+#git {
+  width: 45px;
+  height: 45px;
+}
+
+#unity {
+  width: 45px;
+  height: 45px;
+}
+
+#python {
+  width: 45px;
+  height: 45px;
+}
 
 ul {
     display: table;
     margin: 0 auto;
     font-family: "Montserrat", sans-serif;
-    color: rgb(119, 23, 119);
+    color: rgb(240, 228, 240);
     list-style-position: inside;
     padding-left: 0;
 }
@@ -137,6 +162,7 @@ ul {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 10px;
+    margin-top: 15px;
   }
   
   /* Create two columns that float next to eachother */
@@ -154,7 +180,7 @@ ul {
     clear: both;
   }
   
-  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  /* When the screen is less than 600px wide, make the two columns stack on top of each other*/
   @media screen and (max-width: 600px) {
     .column, input[type=submit] {
       width: 100%;
@@ -200,6 +226,6 @@ a:hover {
     background-color: whitesmoke;
     color: black;
     text-align: center;
-    font-family: Montserrat, sans-serif;
+    font-family: 'Cinzel Decorative', cursive;
     padding: 0px;
   }
