@@ -97,9 +97,9 @@ margin-top: 20px;
 main {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   background-color: #080808;
-  align-items: flex-start;
+  align-items: center;
   padding-bottom: 65px;
   height: 550px;
 }
@@ -127,6 +127,16 @@ aside {
   transform: translate(-50%, -50%);
 }
 
+@media screen and (max-width: 600px) {
+  .image {
+    display: flex;
+    width: 200px;
+    float: inline-end;
+;  }
+}
+  
+  
+
 p {
 width: 350px;
 text-align: center;
@@ -134,6 +144,14 @@ font-family: "Montserrat", sans-serif;
 color: rgb(240, 228, 240);
 margin: 15px;
 } 
+
+.main-p {
+  width: 500px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(240, 228, 240);
+  margin: 15px;
+}
 
 #html {
   width: 30px;
