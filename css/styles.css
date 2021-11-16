@@ -22,7 +22,7 @@ li {
     align-items: center;
     margin: 0;
     padding: 1rem 1.5rem;
-    background: linear-gradient(to top left, rgba(86, 13, 69, 1.0), rgba(1, 15, 84, 1.0));;
+    background: linear-gradient(to top left, rgba(86, 13, 69, 1.0), rgba(1, 15, 84, 1.0));
   }
   
   #hamburger {
@@ -62,15 +62,15 @@ h1 {
   }
   
 h2 {
-font-family: 'Cinzel Decorative', cursive; /*"Montserrat", sans-serif;*/
-text-align: center;
-color: purple;
-box-sizing: border-box;
-width: 300px;
-height: 50px;
-padding: 10px;  
-margin: auto;
-margin-top: 20px;
+    font-family: 'Cinzel Decorative', cursive; /*"Montserrat", sans-serif;*/
+    text-align: center;
+    color: purple;
+    box-sizing: border-box;
+    width: 300px;
+    height: 50px;
+    padding: 10px;  
+    margin: auto;
+    margin-top: 20px;
 }
 
 h3 {
@@ -85,7 +85,6 @@ margin: auto;
 margin-top: 20px;
 }
 
-
 main {
   display: flex;
   flex-direction: column;
@@ -95,11 +94,12 @@ main {
   padding-bottom: 65px;
   height: 550px;
 }
+
 aside {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content:center;
+  align-items:center;
   background-color: #080808;
   width: 25%;
   padding-left: .5rem;
