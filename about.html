@@ -6,30 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Montserrat--><link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="css/about.css">
-    <script src="javascript/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>    
     <title>About Me</title>
 </head>
 
 <body>
 
-    <div class="navbar" id="myNavbar">
-        <a href="mainpage.html">Main</a>
-        <a href="about.html" class="active">About</a>
-        <a href="#">Contact</a>
-          <i class="fa fa-bars"></i>
-      </div>
+    <header class="header">
+        <nav class="navbar">
+          <ul class="nav-menu">
+            <li class="nav-item">
+              <a href="mainpage.html" class="nav-link">Main</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">About</a>
+            </li> 
+            <li class="nav-item">
+              <a href="#" class="nav-link">Contact</a>
+            </li>
+          </ul>
+          <div class="button" id="hamburger">
+            <i class="fa fa-bars"></i>
+          </div>
+        </nav>
+      </header>
+      <aside>
+          <img src="images/252542671_202930615319957_6840600513576258938_n.jpg" style="width: 250px;">
+      
+        </aside>
 
-    <h2>About Me</h2>
-        <div>
-            <p>My background is primarily in Food Service. I was in the industry for most of my working life, until I decided to transition into tech jobs.</p>
-            <p>After spending some time in an IT position, I decided to learn about web development. I started with FreeCodeCamp, then I learned on the job in my current position, and now I'm working my way through <b><a href="https://www.codelouisville.org/">Code Louisville</a></b>'s Front End Web Development Course.</p>
-            <p>After completing Front End, I plan to take a course on Data Analytics with Python.</p>
-            <p>When I'm not working on my tech skills, I am working on my bachelor's degree in History.</p>
-            <p>I have always had a passion for history, science, and technology. I am always looking for ways to combine the three into projects and experiences. For example, I want to take my Python knowledge and improve on how we catalog historic records and data. I also want to try my hand at game development, creating history-based RPGs.</p>
-            <p>In our increasingly tech-driven world, I believe that the collaborative efforts of humanities and STEM is our greatest strength, and I want to be a part of it!</p>
+      <main>
+        <div class="main-column">
+        <h3>About Me</h3>
+            <p class="main-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet erat sagittis, pretium tellus vitae, sodales magna. Ut scelerisque ipsum a nisl facilisis, et bibendum lectus venenatis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquam tellus non augue tincidunt fringilla. Duis suscipit sit amet neque id hendrerit. Sed maximus dui vitae pharetra faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce massa libero, consectetur et ipsum non, pretium aliquet odio. Sed vestibulum efficitur eleifend.</p>
+            <p class="main-p">Donec nec tellus lobortis, egestas enim at, luctus tortor. Nullam sed vestibulum ante. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras id porta sem, eget cursus augue. Quisque viverra nisi elit, quis semper ante pellentesque id. Mauris sollicitudin dolor magna, a facilisis lorem tincidunt sed. Etiam dignissim dolor eget vulputate porttitor. Nam egestas nisl eget magna pharetra, vel auctor turpis mattis. Morbi pulvinar eros et viverra auctor. Nam bibendum quis leo accumsan laoreet.
+
+            </p>
         </div>
-
+      </main>
 
         <footer>&copy; 2021 Mariah James- All Rights Reserved</footer>
+        <script src="javascript/about.js"></script>
+
 </body>
 </html>

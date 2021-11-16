@@ -16,14 +16,3 @@ function closeMenu() {
     button.classList.remove("active");
     navMenu.classList.remove("active");
 } 
-
-const email = document.getElementById("mail");
-
-email.addEventListener("input", function (event) {
-  if (email.validity.typeMismatch) {
-    email.setCustomValidity("Please Enter a Valid Email Address");
-  } else {
-    email.setCustomValidity("");
-  }
-});
-
