@@ -1,3 +1,4 @@
+//responsive navbar
 const button = document.querySelector(".button");
 const navMenu = document.querySelector(".nav-menu");
 
@@ -17,15 +18,7 @@ function closeMenu() {
     navMenu.classList.remove("active");
 } 
 
-//const email = document.getElementById("mail");
-
-//email.addEventListener("input", function (event) {
- // if (email.validity.typeMismatch) {
- //   email.setCustomValidity("Please Enter a Valid Email Address");
- // } else {
- //   email.setCustomValidity("");
- // }
-//});
+//contact form validation
 
 const submitButton = document.getElementById('submitButton');
 
@@ -51,7 +44,7 @@ const validate = (e) => {
     return false;
   }
   
-  return true; // Can submit the form data to the server
+  return true; 
 }
 
 const emailIsValid = email => {

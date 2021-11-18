@@ -61,7 +61,7 @@ h1 {
   }
   
 h2 {
-    font-family: 'Cinzel Decorative', cursive; /*"Montserrat", sans-serif;*/
+    font-family: 'Cinzel Decorative', cursive; 
     text-align: center;
     color: purple;
     box-sizing: border-box;
@@ -73,7 +73,7 @@ h2 {
 }
 
 h3 {
-font-family: 'Cinzel Decorative', cursive; /*"Montserrat", sans-serif;*/
+font-family: 'Cinzel Decorative', cursive; 
 text-align: center;
 color: whitesmoke;
 box-sizing: border-box;
@@ -151,7 +151,6 @@ ul {
     box-sizing: border-box;
   }
   
-  /* Style inputs */
   input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -175,15 +174,6 @@ ul {
     color: black;
   }
 
-  #thank-you-message {
-    display: none;
-    font-family: 'Cinzel Decorative', cursive;
-    color: #080808;
-  }
-  
-  #thank-you-message.show {
-    display: block;
-  }
 
   /* contact section */
   .container {

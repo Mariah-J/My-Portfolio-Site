@@ -1,3 +1,4 @@
+//Responsive navbar
 const button = document.querySelector(".button");
 const navMenu = document.querySelector(".nav-menu");
 
