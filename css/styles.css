@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
 
-
 .header {
   border-bottom: 1px solid black;
 }
@@ -123,7 +122,7 @@ p {
 width: 350px;
 text-align: center;
 font-family: "Montserrat", sans-serif;
-color: rgb(240, 228, 240);
+color: whitesmoke;
 margin: 15px;
 } 
 
@@ -143,8 +142,6 @@ margin: 15px;
 ul {
     display: table;
     margin: 0 auto;
-    font-family: "Montserrat", sans-serif;
-    color: rgb(240, 228, 240);
     list-style-position: inside;
     padding-left: 0;
 }
@@ -164,7 +161,7 @@ ul {
     resize: vertical;
   }
   
-  input[type=submit] {
+  #submitButton {
     background-color:black;
     color: white;
     padding: 12px 20px;
@@ -173,11 +170,22 @@ ul {
     margin-bottom: 10px;
   }
   
-  input[type=submit]:hover {
-    background-color: black;
+  #submitButton:hover {
+    background-color: purple;
+    color: black;
+  }
+
+  #thank-you-message {
+    display: none;
+    font-family: 'Cinzel Decorative', cursive;
+    color: #080808;
   }
   
-  /* Style the container/contact section */
+  #thank-you-message.show {
+    display: block;
+  }
+
+  /* contact section */
   .container {
     border-radius: 5px;
     background-color: #f2f2f2;

@@ -71,12 +71,19 @@
                 <img src="images/fausto-sandoval-w5m3PIGvkqI-unsplash.jpg" style="width:75%">
               </div>
               <div class="column">
-                <form action="/action_page.php">
-                  <input type="text" id="name" name="name" placeholder="Your name.." required="required">
-                  <input type="email" id="mail" name="mail" placeholder="Your Email Address..">
-                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
-                  <input type="submit" value="Submit">
+
+                <p id="thank-you-message">
+                  Thank you for contacting us. We will be in touch with you very soon.
+                </p>
+                <form action="/action_page.php" name="contactForm" id="contactForm" method="post">
+                  <input type="text" name="nameField" id="nameField" placeholder="Your name.." required="required">
+                  <input type="email" name="emailField" id="emailField" placeholder="Your Email Address.." required>
+                  <textarea id="subject" name="subject" placeholder="Message.." style="height:170px"></textarea>
+                  <!--<input type="submit" value="Submit">-->
+                  <button id="submitButton">Send Message</button>
+
                 </form>
+
                 <div class="social-icons">
                   <a href="https://github.com/Mariah-J" target="_blank"><i class="fab fa-github"></i></a>
                   <a href="https://www.linkedin.com/in/mariahgjames/" target="_blank"><i class="fab fa-linkedin"></i></a>

@@ -56,8 +56,6 @@ li {
   ul {
     display: table;
     margin: 0 auto;
-    font-family: "Montserrat", sans-serif;
-    color: rgb(240, 228, 240);
     list-style-position: inside;
     padding-left: 0;
 }
